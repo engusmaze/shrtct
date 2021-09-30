@@ -9,7 +9,6 @@
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
-		"alwaysStrict": true,
-		"removeComments": true
+		"alwaysStrict": true
 	}
 }

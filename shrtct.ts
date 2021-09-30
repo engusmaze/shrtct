@@ -12,10 +12,10 @@ export const // Some console logging stuff
 	print = console.log,
 	/** Outputs an error message to the Web console. */
 	error = console.error,
-	/** Writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. */
-	assert = console.assert,
 	/** Outputs a stack trace to the console. */
 	trace = console.trace,
+	/** Writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. */
+	assert = console.assert,
 	// Some time stuff
 	/** Returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC. */
 	time = Date.now,
