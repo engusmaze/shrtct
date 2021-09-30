@@ -1,6 +1,6 @@
 {
 	"name": "shrtct",
-	"version": "0.1.0",
+	"version": "0.1.3",
 	"description": "A shortcut library for js default methods",
 	"main": "shrtct.js",
 	"scripts": {
@@ -11,8 +11,17 @@
 		"tiny",
 		"browser",
 		"small",
-		"math"
+		"math",
+		"front-end"
 	],
 	"author": "engus-maze",
-	"license": "ISC"
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/engusmaze/shrtct.git"
+	},
+	"bugs": {
+		"url": "https://github.com/engusmaze/shrtct/issues"
+	},
+	"homepage": "https://github.com/engusmaze/shrtct#readme"
 }

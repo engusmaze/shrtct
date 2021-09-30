@@ -5,13 +5,7 @@ if (typeof window !== "undefined") {
 	nav = navigator;
 	doc = document;
 	win = window;
-	Object.seal(nav);
-	Object.seal(doc);
-	Object.seal(win);
 }
-
-Math.log10;
-console.error();
 
 export const // Some console logging stuff
 	/** Outputs a message to the console */
