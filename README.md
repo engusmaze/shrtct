@@ -9,11 +9,11 @@
 
 The purpose of this library is to reduce the size of the code without losing readability.
 
--   [Shortcuts](#Basic-shortcuts)
-    -   [Shortcuts for console](#Shortcuts-for-console)
-    -   [Shortcuts for Math](#Shortcuts-for-Math)
-        -   [Math constants](#Math-constants)
-        -   [Math methods](#Math-methods)
+-   [Shortcuts](#shortcuts)
+    -   [Shortcuts for console](#shortcuts-for-console)
+    -   [Shortcuts for Math](#shortcuts-for-math)
+        -   [Math constants](#math-constants)
+        -   [Math methods](#math-methods)
 
 ## Shortcuts
 
@@ -21,9 +21,9 @@ The purpose of this library is to reduce the size of the code without losing rea
 
 Here are some shorter versions of console methods
 
-console.log > print()<br>
-console.error > error()<br>
-console.trace > trace()<br>
+console.log > print()<br />
+console.error > error()<br />
+console.trace > trace()<br />
 console.assert > assert()
 
 ```js
@@ -39,12 +39,12 @@ assert(false, "some assertion");
 
 #### Math constants
 
-Math.PI > PI<br>
-Number.EPSILON > EPS<br>
-Math.E > E<br>
-Math.LN10 > LN10<br>
-Math.LN2 > LN2<br>
-Math.LN2 > LN2<br>
+Math.PI > PI<br />
+Number.EPSILON > EPS<br />
+Math.E > E<br />
+Math.LN10 > LN10<br />
+Math.LN2 > LN2<br />
+Math.LN2 > LN2<br />
 
 ```js
 let {
