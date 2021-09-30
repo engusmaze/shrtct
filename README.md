@@ -1,21 +1,3 @@
-<style>
-    f {
-        color: #66b0ed;
-    }
-    cf {
-        color:#59b7c2;
-    }
-    c {
-        color: #e4bf80;
-    }
-    cn {
-        color: #d0996a;
-    }
-    v {
-        color: #df6a76;
-    }
-</style>
-
 # A really small js library for shortcutting default js methods and values
 
 [![NPM package version](https://img.shields.io/npm/v/shrtct.svg?style=flat-square)](https://npmjs.org/package/shrtct)
@@ -37,10 +19,10 @@
 
 Here are some shorter versions of console methods
 
-<c>console</c>.<f>log</f> > <f>print</f>()<br>
-<c>console</c>.<f>error</f> > <f>error</f>()<br>
-<c>console</c>.<f>trace</f> > <f>trace</f>()<br>
-<c>console</c>.<f>assert</f> > <f>assert</f>()
+console.log > print()<br>
+console.error > error()<br>
+console.trace > trace()<br>
+console.assert > assert()
 
 ```js
 let { print, error, trace, assert } = require("./shrtct");
@@ -55,12 +37,12 @@ assert(false, "some assertion");
 
 #### Math constants
 
-<c>Math</c>.<cn>PI</cn> > <c>PI</c><br>
-<c>Number</c>.<cn>EPSILON</cn> > <c>EPS</c><br>
-<c>Math</c>.<cn>E</cn> > <c>E</c><br>
-<c>Math</c>.<cn>LN10</cn> > <c>LN10</c><br>
-<c>Math</c>.<cn>LN2</cn> > <c>LN2</c><br>
-<c>Math</c>.<cn>LN2</cn> > <c>LN2<c><br>
+Math.PI > PI<br>
+Number.EPSILON > EPS<br>
+Math.E > E<br>
+Math.LN10 > LN10<br>
+Math.LN2 > LN2<br>
+Math.LN2 > LN2<br>
 
 ```js
 let {
@@ -90,27 +72,27 @@ print(SQRT2); // 1.4142135623730951
 
 And also some shortcuts for Math methods
 
-<c>Math</c>.<cf>abs</cf>() > <f>abs</f>()<br>
-<c>Math</c>.<cf>acos</cf>() > <f>acos</f>()<br>
-<c>Math</c>.<cf>asin</cf>() > <f>asin</f>()<br>
-<c>Math</c>.<cf>atan</cf>() > <f>atan</f>()<br>
-<c>Math</c>.<cf>atan2</cf>() > <f>atan2</f>()<br>
-<c>Math</c>.<cf>ceil</cf>() > <f>ceil</f>()<br>
-<c>Math</c>.<cf>cos</cf>() > <f>cos</f>()<br>
-<c>Math</c>.<cf>exp</cf>() > <f>exp</f>()<br>
-<c>Math</c>.<cf>floor</cf>() > <f>floor</f>()<br>
-<c>Math</c>.<cf>log</cf>() > <f>log</f>()<br>
-<c>Math</c>.<cf>log10</cf>() > <f>log10</f>()<br>
-<c>Math</c>.<cf>log2</cf>() > <f>log2</f>()<br>
-<c>Math</c>.<cf>log1p</cf>() > <f>log1p</f>()<br>
-<c>Math</c>.<cf>max</cf>() > <f>max</f>()<br>
-<c>Math</c>.<cf>min</cf>() > <f>min</f>()<br>
-<c>Math</c>.<cf>pow</cf>() > <f>pow</f>()<br>
-<c>Math</c>.<cf>random</cf>() > <f>random</f>()<br>
-<c>Math</c>.<cf>round</cf>() > <f>round</f>()<br>
-<c>Math</c>.<cf>sin</cf>() > <f>sin</f>()<br>
-<c>Math</c>.<cf>sqrt</cf>() > <f>sqrt</f>()<br>
-<c>Math</c>.<cf>tan</cf>() > <f>tan</f>()<br>
+Math.abs() > abs()<br>
+Math.acos() > acos()<br>
+Math.asin() > asin()<br>
+Math.atan() > atan()<br>
+Math.atan2() > atan2()<br>
+Math.ceil() > ceil()<br>
+Math.cos() > cos()<br>
+Math.exp() > exp()<br>
+Math.floor() > floor()<br>
+Math.log() > log()<br>
+Math.log10() > log10()<br>
+Math.log2() > log2()<br>
+Math.log1p() > log1p()<br>
+Math.max() > max()<br>
+Math.min() > min()<br>
+Math.pow() > pow()<br>
+Math.random() > random()<br>
+Math.round() > round()<br>
+Math.sin() > sin()<br>
+Math.sqrt() > sqrt()<br>
+Math.tan() > tan()<br>
 
 ```js
 let {

@@ -1,6 +1,6 @@
 {
 	"name": "shrtct",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "A shortcut library for js default methods",
 	"main": "shrtct.js",
 	"scripts": {
