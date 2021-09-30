@@ -7,6 +7,8 @@
 
 <!-- [![NPM downloads](https://img.shields.io/npm/dw/shrtct)](https://npmjs.org/package/shrtct) -->
 
+The purpose of this library is to reduce the size of the code without losing readability.
+
 -   [Shortcuts](#Basic-shortcuts)
     -   [Shortcuts for console](#Shortcuts-for-console)
     -   [Shortcuts for Math](#Shortcuts-for-Math)
